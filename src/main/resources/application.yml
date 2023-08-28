@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Spring-Batch
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_batch?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: root
+  batch:
+    jdbc:
+      initialize-schema: always
+  logging:
+    level:
+      org.springframework: INFO
